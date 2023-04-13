@@ -5,7 +5,7 @@ import Link from 'next/link';
 export default function Footer() {
   return (
     <footer className='w-full border-t-2 border-solid border-dark font-medium text-base sm:text-lg dark:text-light dark:border-light'>
-      <Layout className='py-6 lg:py-8 flex flex-col lg:flex-row items-center justify-between '>
+      <Layout className='py-6 lg:!py-8  flex flex-col lg:flex-row items-center justify-between '>
         <span>جميع الحقوق محفوظة &copy; {new Date().getFullYear()}</span>
         <div className='flex items-center'>
           تصميم{' '}
