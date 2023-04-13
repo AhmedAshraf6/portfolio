@@ -93,7 +93,7 @@ export default function Navbar() {
       <div className='w-full hidden lg:flex items-center justify-between'>
         <nav className='flex gap-3'>
           <CustomLink href='/' title='الرئيسية' />
-          <CustomLink href='/about' title='معلومات عنا' />
+          <CustomLink href='/about' title='معلومات عني' />
           <CustomLink href='/projects' title='المشاريع' />
         </nav>
         <Logo />
@@ -171,7 +171,7 @@ export default function Navbar() {
         >
           <nav className='flex items-center flex-col justify-center gap-3'>
             <CustomMobileLink href='/' title='الرئيسية' />
-            <CustomMobileLink href='/about' title='معلومات عنا' />
+            <CustomMobileLink href='/about' title='معلومات عني' />
             <CustomMobileLink href='/projects' title='المشاريع' />
           </nav>
           <nav className='flex items-center justify-center flex-wrap gap-2 sm:gap-4 mt-2 '>
