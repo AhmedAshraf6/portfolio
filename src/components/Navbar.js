@@ -62,7 +62,7 @@ export default function Navbar() {
     );
   };
   return (
-    <header className='w-full px-5 md:px-15 lg:px-32 py-8 font-medium  dark:text-light'>
+    <header className='w-full px-5 md:px-15 lg:px-32 py-2 sm:py-4 font-medium  dark:text-light'>
       {/* small screen */}
       <div className='w-full flex lg:hidden items-center justify-between '>
         <button
@@ -95,7 +95,6 @@ export default function Navbar() {
           <CustomLink href='/' title='الرئيسية' />
           <CustomLink href='/about' title='معلومات عنا' />
           <CustomLink href='/projects' title='المشاريع' />
-          <CustomLink href='/articles' title='المقالات' />
         </nav>
         <Logo />
         <nav className='flex items-center gap-4'>
@@ -174,7 +173,6 @@ export default function Navbar() {
             <CustomMobileLink href='/' title='الرئيسية' />
             <CustomMobileLink href='/about' title='معلومات عنا' />
             <CustomMobileLink href='/projects' title='المشاريع' />
-            <CustomMobileLink href='/articles' title='المقالات' />
           </nav>
           <nav className='flex items-center justify-center flex-wrap gap-2 sm:gap-4 mt-2 '>
             <motion.a
