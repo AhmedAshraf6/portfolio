@@ -41,13 +41,12 @@ export default function Home() {
                 >
                   السيرة الذاتية <BsArrowUpLeftSquare className='mx-2' />
                 </Link>
-                <Link
-                  href='mailto:ahmedp76b@gmail.com'
-                  target={'_blank'}
+                <a
+                  href='//api.whatsapp.com/send?phone=2001098750546'
                   className='text-base md:text-lg font-semibold text-dark underline underline-offset-8 dark:text-light'
                 >
                   تواصل معي
-                </Link>
+                </a>
               </div>
             </div>
             <div className='w-full lg:w-1/2'>

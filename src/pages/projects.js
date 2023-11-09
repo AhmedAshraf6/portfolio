@@ -8,6 +8,8 @@ import { AiFillGithub } from 'react-icons/ai';
 import proj1 from '../../public/images/projects/proj1.png';
 import proj2 from '../../public/images/projects/proj2.png';
 import proj3 from '../../public/images/projects/proj3.png';
+import proj4 from '../../public/images/projects/proj4.png';
+import proj5 from '../../public/images/projects/proj5.png';
 import TransitionEffect from '@/components/TransitionEffect';
 const FeaturedProject = ({ type, title, summary, img, link, githubLink }) => {
   return (
@@ -125,7 +127,7 @@ export default function projects() {
             text='التخيل المعرفة الصبر'
             className='mb-8 sm:mb-16 !text-4xl sm:!text-6xl lg:!text-7xl'
           />
-          <div className='grid grid-cols-12 gap-x-0 gap-y-10 sm:gap-y-10 sm:gap-x-10 lg:gap-x-8 xl:gap-x-16 2xl:gap-24 2xl:gap-y-32'>
+          <div className='grid grid-cols-12 gap-x-0 gap-y-10 sm:gap-y-10 sm:gap-x-10 lg:gap-x-8 xl:gap-x-16 2xl:gap-24 2xl:gap-y-32 '>
             <div className='col-span-12'>
               <FeaturedProject
                 title='موقع لشركة تقنية'
@@ -138,7 +140,7 @@ export default function projects() {
             </div>
             <div className='col-span-12 md:col-span-6'>
               <Project
-                title='موقع بيع وشراء'
+                title='موقع بيع وشراء لشركة أدس اب'
                 link='https://ahmedashraf6.github.io/test/'
                 type='موقع'
                 img={proj2}
@@ -150,6 +152,22 @@ export default function projects() {
                 link='https://foodsystem.vercel.app/'
                 type='موقع'
                 img={proj3}
+              />
+            </div>
+            <div className='col-span-12 md:col-span-6'>
+              <Project
+                title='موقع لشركة ماركتينج للمدير التنفيذي حازم جمعة'
+                link='https://hgagencag.vercel.app/'
+                type='موقع'
+                img={proj4}
+              />
+            </div>
+            <div className='col-span-12 md:col-span-6'>
+              <Project
+                title='موقع لرجل الأعمال البشمهندس محمود عفيفي '
+                link='https://afifyorganization.com/'
+                type='موقع'
+                img={proj5}
               />
             </div>
           </div>
