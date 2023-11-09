@@ -3,7 +3,7 @@ import React from 'react';
 
 export default function DarkModeProvider({ children }) {
   return (
-    <ThemeProvider enableSystem={true} attribute='class'>
+    <ThemeProvider defaultTheme='dark' attribute='class'>
       {children}
     </ThemeProvider>
   );

@@ -34,7 +34,9 @@ export default function Home() {
               <p className='my-4 text-xs sm:text-sm md:text-base font-medium leading-6 md:leading-8'>
                 خريج حاسبات ومعلومات أستطيع تصميم مواقع بأحدث التقنيات وفقا
                 للمعايير العالمية ، أحدث التقنيات يتم استخدامها بداية من التصميم
-                انتهاء ب تجاوب الموقع علي جميع الشاشات.
+                انتهاء ب تجاوب الموقع علي جميع الشاشات. يمكنني تصميم جميع أنواع
+                المواقع الالكترونية ، مواقع شركات ، مواقع شخصية ، متاجر
+                الكترونية، مدونات ، مواقع حجز
               </p>
               <div className='flex  flex-wrap justify-center items-center  selft-center lg:self-start mt-2 gap-2'>
                 <Link
