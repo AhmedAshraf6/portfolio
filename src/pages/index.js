@@ -17,6 +17,10 @@ export default function Home() {
       <Head>
         <title>أحمد | الرئيسية</title>
         <meta name='description' content='سيرة ذاتية أحمد أشرف' />
+        <meta
+          property='og:image'
+          content='https://ahmedashraf.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fdeveloper.697339b5.jpg&w=640&q=75'
+        />
       </Head>
       <TransitionEffect />
       <main className='flex items-center text-dark w-full min-h-screen dark:text-light'>

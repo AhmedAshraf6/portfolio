@@ -11,6 +11,7 @@ import proj3 from '../../public/images/projects/proj3.png';
 import proj4 from '../../public/images/projects/proj4.png';
 import proj5 from '../../public/images/projects/proj5.png';
 import TransitionEffect from '@/components/TransitionEffect';
+
 const FeaturedProject = ({ type, title, summary, img, link, githubLink }) => {
   return (
     <article

@@ -12,19 +12,7 @@ const tajawal = Tajawal({
   variable: '--font-taj',
   weight: ['400', '700', '800'],
 });
-export const metadata = {
-  title: 'أحمد أشرف',
-  description:
-    'أنا أحمد ، مصمم ومطور مواقع خريج حاسبات ومعلومات أستطيع تصميم مواقع بأحدث التقنيات وفقا للمعايير العالمية ، أحدث التقنيات يتم استخدامها بداية من التصميم انتهاء ب تجاوب الموقع علي جميع الشاشات',
-  icons: {
-    icon: '/favicon.ico',
-  },
-  openGraph: {
-    title: 'أحمد أشرف',
-    description:
-      'أنا أحمد ، مصمم ومطور مواقع خريج حاسبات ومعلومات أستطيع تصميم مواقع بأحدث التقنيات وفقا للمعايير العالمية ، أحدث التقنيات يتم استخدامها بداية من التصميم انتهاء ب تجاوب الموقع علي جميع الشاشات',
-  },
-};
+
 export default function App({ Component, pageProps }) {
   const router = useRouter();
   return (
@@ -32,6 +20,10 @@ export default function App({ Component, pageProps }) {
       <Head>
         <meta name='viewport' content='width=device-width, initial-scale=1' />
         <link rel='icon' href='/favicon.ico' />
+        <meta
+          property='og:image'
+          content='https://ahmedashraf.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fdeveloper.697339b5.jpg&w=640&q=75'
+        />
       </Head>
       <DarkModeProvider>
         <main
