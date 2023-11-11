@@ -167,6 +167,14 @@ export default function projects() {
                 img={proj4}
               />
             </div>
+            <div className='col-span-12 md:col-span-6'>
+              <Project
+                title='موقع لرجل الأعمال البشمهندس محمود عفيفي '
+                link='https://afifyorganization.com/'
+                type='موقع'
+                img={proj5}
+              />
+            </div>
           </div>
         </Layout>
       </main>
