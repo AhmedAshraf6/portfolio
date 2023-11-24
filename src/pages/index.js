@@ -32,11 +32,11 @@ export default function Home() {
                 className='!text-3xl !text-center lg:!text-right sm:!text-5xl md:!text-5xl lg:!text-6xl '
               />
               <p className='my-4 text-xs sm:text-sm md:text-base font-medium leading-6 md:leading-8'>
-                خريج حاسبات ومعلومات أستطيع تصميم مواقع بأحدث التقنيات وفقا
-                للمعايير العالمية ، أحدث التقنيات يتم استخدامها بداية من التصميم
-                انتهاء ب تجاوب الموقع علي جميع الشاشات. يمكنني تصميم جميع أنواع
-                المواقع الالكترونية ، مواقع شركات ، مواقع شخصية ، متاجر
-                الكترونية، مدونات ، مواقع حجز
+                مبرمج ومصمم مواقع ويب مبتكر، حاصل على شهادة في هندسة الحاسبات
+                وتكنولوجيا المعلومات من جامعة المنيا. لدي خبرة واسعة في تطوير
+                Frontend والـ Backend. وتصميم مواقع الويب بكلٍ من جوانب الـ
+                متخصص في تصميم وتطوير تطبيقات الويب المبتكرة التي تجمع بين
+                الوظائف المتقدمة والتجربة الرائعة للمستخدم.
               </p>
               <div className='flex  flex-wrap justify-center items-center  selft-center lg:self-start mt-2 gap-2'>
                 <Link
