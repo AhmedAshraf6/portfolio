@@ -43,7 +43,7 @@ export default function Home() {
               </p>
               <div className='flex  flex-wrap justify-center items-center  selft-center lg:self-start mt-2 gap-2'>
                 <Link
-                  href='/cv.docx'
+                  href='/cv.aocx'
                   className='flex items-center bg-dark text-light py-2 px-4 text-base md:py-2.5 md:px-6 rounded-lg md:text-lg font-semibold hover:bg-light hover:text-dark border-2 border-solid border-transparent hover:border-dark transition-all transition-500
                   dark:bg-light dark:text-dark dark:hover:bg-dark dark:hover:border-light dark:hover:text-light '
                   download={true}
