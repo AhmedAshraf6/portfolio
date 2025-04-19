@@ -28,15 +28,18 @@ export default function Home() {
           <div className='flex flex-col lg:flex-row items-center justify-between w-full gap-y-5'>
             <div className='w-full lg:w-1/2 flex flex-col items-center text-center lg:text-right self-center'>
               <AnimatedText
-                text='انا احمد ، مصمم ومطور مواقع  '
+                text='مصمم ومطور متخصص في منصة زد لأكثر من 3 أعوام'
                 className='!text-3xl !text-center lg:!text-right sm:!text-5xl md:!text-5xl lg:!text-6xl '
               />
               <p className='my-4 text-xs sm:text-sm md:text-base font-medium leading-6 md:leading-8'>
-                مبرمج ومصمم مواقع ويب مبتكر، حاصل على شهادة في هندسة الحاسبات
-                وتكنولوجيا المعلومات من جامعة المنيا. لدي خبرة واسعة في تطوير
-                Frontend والـ Backend. وتصميم مواقع الويب بكلٍ من جوانب الـ
-                متخصص في تصميم وتطوير تطبيقات الويب المبتكرة التي تجمع بين
-                الوظائف المتقدمة والتجربة الرائعة للمستخدم.
+                أنا مطور ويب بخبرة عملية متنوعة في تطوير مواقع الإنترنت باستخدام
+                React وغيرها من التقنيات الحديثة. خريج كلية الحاسبات والمعلومات،
+                ولدي شغف دائم بالتطوير وحل المشكلات التقنية. أمتلك خبرة قوية في
+                منصة زد (Zid) من خلال عملي على تطوير ثيمات مخصصة وتحسين تجربة
+                المستخدم بما يتوافق مع متطلبات المنصة. عملت على أكثر من 20 مشروع
+                عبر موقع "مستقل"، بالإضافة إلى خبرة عملية داخل شركتين، مما
+                ساعدني على صقل مهاراتي في العمل الجماعي وتحقيق أهداف العملاء
+                بكفاءة واحترافية.
               </p>
               <div className='flex  flex-wrap justify-center items-center  selft-center lg:self-start mt-2 gap-2'>
                 <Link

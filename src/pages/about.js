@@ -54,13 +54,16 @@ export default function About() {
                 نبذة عني
               </h2>
               <p className='my-4 font-medium'>
-                اسمي احمد اشرف اعيش في مصر خريج كلية الحاسبات والمعلومات. يمكنني
-                تصميم جميع أنواع المواقع الالكترونية ، مواقع شركات ، مواقع شخصية
-                ، متاجر الكترونية، مدونات ، مواقع حجز
+                أنا مطور ويب بخبرة عملية متنوعة في تطوير مواقع الإنترنت باستخدام
+                React وغيرها من التقنيات الحديثة. خريج كلية الحاسبات والمعلومات،
+                ولدي شغف دائم بالتطوير وحل المشكلات التقنية.
               </p>
               <p className='my-4 font-medium'>
-                التواصل الفعّال: قدرة على التواصل والعمل كفريق ومهارات جيدة في
-                التواصل مع العملاء.
+                أمتلك خبرة قوية في منصة زد (Zid) من خلال عملي على تطوير ثيمات
+                مخصصة وتحسين تجربة المستخدم بما يتوافق مع متطلبات المنصة. عملت
+                على أكثر من 20 مشروع عبر موقع "مستقل"، بالإضافة إلى خبرة عملية
+                داخل شركتين، مما ساعدني على صقل مهاراتي في العمل الجماعي وتحقيق
+                أهداف العملاء بكفاءة واحترافية.
               </p>
               <p className='my-4 font-medium'>
                 التطوير المهني المستمر: رغبة قوية في التعلم ومتابعة التقنيات
@@ -82,7 +85,7 @@ export default function About() {
               <div className='flex flex-col items-start justify-center '>
                 <span className='inline-block text-4xl sm:text-5xl md:text-6xl xl:text-7xl font-bold'>
                   +
-                  <AnimatedNumber value={20} />
+                  <AnimatedNumber value={33} />
                 </span>
                 <h2 className='text-sm sm:text-base md:text-lg xl:text-xl font-medium text-dark/75 dark:text-light '>
                   عملاء راضيين
@@ -91,7 +94,7 @@ export default function About() {
               <div className='flex flex-col items-start justify-center'>
                 <span className='inline-block text-4xl sm:text-5xl md:text-6xl xl:text-7xl font-bold'>
                   +
-                  <AnimatedNumber value={30} />
+                  <AnimatedNumber value={45} />
                 </span>
                 <h2 className='text-sm sm:text-base md:text-lg xl:text-xl font-medium text-dark/75 dark:text-light'>
                   مشاريع مكتملة
@@ -100,7 +103,7 @@ export default function About() {
               <div className='flex flex-col items-start justify-center'>
                 <span className='inline-block text-4xl sm:text-5xl md:text-6xl xl:text-7xl font-bold'>
                   +
-                  <AnimatedNumber value={3} />
+                  <AnimatedNumber value={5} />
                 </span>
                 <h2 className='text-sm sm:text-base md:text-lg xl:text-xl font-medium text-dark/75 dark:text-light'>
                   أعوام من الخبرة

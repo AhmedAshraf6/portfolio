@@ -44,21 +44,15 @@ export default function Education() {
         <ul className='w-full flex flex-col items-start justify-between mr-4 sm:mr-4'>
           <Details
             type='كلية حاسبات ومعلومات '
-            time='2018-2023'
+            time='2018-2022'
             place='جامعة المنيا'
             info='حاسبات ومعلومات قسم البايوانفورماتكس'
           />
           <Details
-            type=' موقع يوديمي  '
+            type=' موقع يوديمي'
             time='2018-2023'
             place='udemy website'
             info='انهاء 6 كورسات في موقع يوديمي '
-          />
-          <Details
-            type='تعليم ذاتي '
-            time='2018-2023'
-            place='جامعة المنيا'
-            info='تعليم ذاتي'
           />
         </ul>
       </div>

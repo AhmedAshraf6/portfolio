@@ -51,32 +51,33 @@ export default function Experiance() {
         <ul className='w-full flex flex-col items-start justify-between mr-4 sm:mr-4'>
           <Details
             position='مهندس برمجيات'
-            company='فيوتشر ميديا'
-            time='2023'
-            address='القاهرة -الجيزة'
-            work='قمت بالعمل في شركة فيوتشر ميديا كمطور واجهة امامية وكنت مسئول عن تطوير الواجهة الامايمة لموقع adsapp واحد من اكبر مواقع البيع والشراء '
+            company='عمل حر'
+            time='2020'
+            work='قمت بانشاء اكثر من خمس مشاريع منها مشاريع تخرج ، مشاريع تجارة الكترونية'
             companyLink='ahmedp76b@gmail.com'
           />
           <Details
             position='مهندس برمجيات'
             company='موقع مستقل'
-            time='2021'
-            work='لدي حساب في موقع مستقل يحتوي علي 15 مشروع مكتمل بتقييم خمس نجوم '
-            companyLink='ahmedp76b@gmail.com'
+            time='2025-2021'
+            work='لدي حساب في موقع مستقل يحتوي علي 20 مشروع مكتمل بتقييم خمس نجوم '
+            companyLink='https://mostaql.com/u/ahmed276'
           />
           <Details
             position='مهندس برمجيات'
-            company='شركة وجين'
-            time='2023'
-            work='قمت بانشاء ثلاث مواقع لشركة وجين'
-            companyLink='ahmedp76b@gmail.com'
+            company='شيربوينت'
+            time='2022-2023'
+            address='القاهرة -الجيزة'
+            work='قمت بالعمل في شركة شيربوينت كمطور واجهة امامية وكنت مسئول عن تطوير الواجهة الامايمة لموقع adsapp واحد من اكبر مواقع البيع والشراء '
+            companyLink='https://sharepoint-t.com/'
           />
           <Details
             position='مهندس برمجيات'
-            company='فريلانس'
-            time='2023'
-            work='قمت بانشاء اكثر من خمس مشاريع منها مشاريع تخرج ، مشاريع تجارة الكترونية'
-            companyLink='ahmedp76b@gmail.com'
+            company='عناقيد التطبيقات'
+            time='2023-2024'
+            address='السعودية'
+            work='عملت كمطور مواقع في شركة عناقيد، المسؤولة عن تطوير موقع الأصايل وتطبيق عناقيد تطبيقات، وشاركت في تصميم وتطوير أكثر من 6 مواقع مخصصة ضمن منصة زد، بالتعاون مع فريق عمل احترافي.'
+            companyLink='https://www.appsbunches.com/'
           />
         </ul>
       </div>

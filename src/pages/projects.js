@@ -10,6 +10,10 @@ import proj2 from '../../public/images/projects/proj2.png';
 import proj3 from '../../public/images/projects/proj3.png';
 import proj4 from '../../public/images/projects/proj4.png';
 import proj5 from '../../public/images/projects/proj5.png';
+import zid from '../../public/images/projects/zid.png';
+import realstate from '../../public/images/projects/عقارات.png';
+import ffalab from '../../public/images/projects/fafalab.png';
+import alwaqf from '../../public/images/projects/alwaqf.png';
 import TransitionEffect from '@/components/TransitionEffect';
 
 const FeaturedProject = ({ type, title, summary, img, link, githubLink }) => {
@@ -129,18 +133,18 @@ export default function projects() {
       <main className='w-full mb-16 flex flex-col items-center justify-center dark:text-light'>
         <Layout className='pt-0 sm:pt-16'>
           <AnimatedText
-            text='التخيل المعرفة الصبر'
+            text='ملحوظة :يوجد الكثير من المشاريع غير المعروضة وفقا لحقوق الملكية مع اصحاب المشاريع منها مواقع منصة زد ومواقع وردبريس'
             className='mb-8 sm:mb-16 !text-4xl sm:!text-6xl lg:!text-7xl'
           />
           <div className='grid grid-cols-12 gap-x-0 gap-y-10 sm:gap-y-10 sm:gap-x-10 lg:gap-x-8 xl:gap-x-16 2xl:gap-24 2xl:gap-y-32 '>
             <div className='col-span-12'>
               <FeaturedProject
-                title='موقع لشركة تقنية'
-                summary='الموقع متعدد اللغات ويمكن إضافة أي لغة أخرى. إنه موقع ديناميكي وقابل للتوسيع.'
-                link='https://ahmedashraf6.github.io/extramax/'
-                githubLink='https://ahmedashraf6.github.io/extramax/'
+                title='متجر الكتروني معروض للبيع في منصة زد تم تصميم من الصفر'
+                summary='الموقع عبارة عن متجر الكتروني مصمم للبيع في منصة زد ما يميز الموقع عن غيره سرعة الموقع والوضع المظلم وخصائص جديدة مميزة مثل تخصيص كارد المنتج بطريقة احترافية'
+                githubLink='https://l6s613.zid.store/'
+                link='https://l6s613.zid.store/'
                 type='مشروع مميز'
-                img={proj1}
+                img={zid}
               />
             </div>
             <div className='col-span-12 md:col-span-6'>
@@ -173,6 +177,38 @@ export default function projects() {
                 link='https://afifyorganization.com/'
                 type='موقع'
                 img={proj5}
+              />
+            </div>
+            <div className='col-span-12 md:col-span-6'>
+              <Project
+                title='موقع وردبريس (مختبر) لاستعراض التجارب العملية'
+                link='https://ffalab.com/'
+                type='موقع'
+                img={ffalab}
+              />
+            </div>
+            <div className='col-span-12 md:col-span-6'>
+              <Project
+                title='موقع عقارات يدعم الشات بين العملاء (Next js and express)'
+                link='https://realstate-lake.vercel.app/'
+                type='موقع'
+                img={realstate}
+              />
+            </div>
+            <div className='col-span-12 md:col-span-6'>
+              <Project
+                title='موقع لشركة تقنية'
+                link='https://ahmedashraf6.github.io/extramax/'
+                type='موقع'
+                img={proj1}
+              />
+            </div>
+            <div className='col-span-12 md:col-span-6'>
+              <Project
+                title='موقع وردبريس لشركة افاق للأوقاف'
+                link='https://alawqaf.sa/'
+                type='موقع'
+                img={alwaqf}
               />
             </div>
           </div>
