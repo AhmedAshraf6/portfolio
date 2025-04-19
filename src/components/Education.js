@@ -52,7 +52,7 @@ export default function Education() {
             type=' موقع يوديمي'
             time='2018-2023'
             place='udemy website'
-            info='انهاء 6 كورسات في موقع يوديمي '
+            info='انهاء 6 كورسات في موقع يوديمي'
           />
         </ul>
       </div>

@@ -60,7 +60,7 @@ export default function Experiance() {
             position='مهندس برمجيات'
             company='موقع مستقل'
             time='2025-2021'
-            work='لدي حساب في موقع مستقل يحتوي علي 20 مشروع مكتمل بتقييم خمس نجوم '
+            work='لدي حساب في موقع مستقل يحتوي علي 20 مشروع مكتمل بتقييم خمس نجوم'
             companyLink='https://mostaql.com/u/ahmed276'
           />
           <Details
@@ -68,7 +68,7 @@ export default function Experiance() {
             company='شيربوينت'
             time='2022-2023'
             address='القاهرة -الجيزة'
-            work='قمت بالعمل في شركة شيربوينت كمطور واجهة امامية وكنت مسئول عن تطوير الواجهة الامايمة لموقع adsapp واحد من اكبر مواقع البيع والشراء '
+            work='قمت بالعمل في شركة شيربوينت كمطور واجهة امامية وكنت مسئول عن تطوير الواجهة الامايمة لموقع adsapp واحد من اكبر مواقع البيع والشراء'
             companyLink='https://sharepoint-t.com/'
           />
           <Details
