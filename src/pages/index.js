@@ -28,7 +28,7 @@ export default function Home() {
           <div className='flex flex-col lg:flex-row items-center justify-between w-full gap-y-5'>
             <div className='w-full lg:w-1/2 flex flex-col items-center text-center lg:text-right self-center'>
               <AnimatedText
-                text='مصمم ومطور متخصص في منصة زد لأكثر من 3 أعوام'
+                text='مصمم ومطور متخصص في منصة زد '
                 className='!text-3xl !text-center lg:!text-right sm:!text-5xl md:!text-5xl lg:!text-6xl '
               />
               <p className='my-4 text-xs sm:text-sm md:text-base font-medium leading-6 md:leading-8'>
